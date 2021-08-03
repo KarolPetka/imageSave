@@ -7,7 +7,8 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 @SpringBootApplication
 @EnableConfigurationProperties({
-        ImageConfiguration.class
+        ImageConfiguration.class,
+        FileStorageProperties.class
 })
 public class DemoApplication {
 
